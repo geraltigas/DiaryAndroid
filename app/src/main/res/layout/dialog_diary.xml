@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/diary"
+        android:textColor="#2d3436"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/diary_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="7dp"
+        app:endIconMode="clear_text"
+        android:textColorHint="@color/concrete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:hint="@string/title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_content"
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="11dp"
+            android:background="@android:drawable/edit_text"
+            android:enabled="true"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:minLines="8"
+            android:scrollbars="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/diary_title_layout" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#ff7675"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toStartOf="@+id/commit_button"
+        app:layout_constraintTop_toTopOf="@+id/textInputLayout2" />
+
+    <Button
+        android:id="@+id/commit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:backgroundTint="#00cec9"
+        android:text="@string/commit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cancel_button" />
+
+    <Button
+        android:id="@+id/add_image"
+        android:layout_width="54dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#00cec9"
+        android:text="@string/plus"
+        app:layout_constraintEnd_toStartOf="@+id/cancel_button"
+        app:layout_constraintTop_toTopOf="@+id/cancel_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:title="@string/description"
+                android:id="@+id/description_button"
+                android:icon="@drawable/description"/>
+            <item
+                android:title="@string/setting"
+                android:icon="@drawable/setting"
+                android:id="@+id/setting" />
+            <item
+                android:title="@string/dontno"
+                android:id="@+id/mine_button"
+                android:icon="@drawable/question" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/diary"
+        android:id="@+id/diary_button"
+        android:icon="@drawable/diary"></item>
+    <item android:title="@string/treehole"
+        android:icon="@drawable/treehole"
+        android:id="@+id/treehole_button"></item>
+    <item android:title="@string/mine"
+        android:id="@+id/mine_button"
+        android:icon="@drawable/mine"></item>
+
+</menu>

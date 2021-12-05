@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/peter_river" android:state_checked="true" />
+    <item android:color="@color/concrete" android:state_checked="false" />
+</selector>

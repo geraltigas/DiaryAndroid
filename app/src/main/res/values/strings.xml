@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Diary</string>
+    <string name="diary">Diary</string>
+    <string name="treehole">Treehole</string>
+    <string name="mine">Mine</string>
+    <string name="profile">Geraltigas</string>
+    <string name="real_profile">\@jiangbo</string>
+    <string name="description">Description</string>
+    <string name="setting">Setting</string>
+    <string name="dontno">DontNo</string>
+    <string name="text">texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</string>
+    <string name="time">2021.12.3</string>
+    <string name="this_is_a_title">this is a title</string>
+    <string name="this_is_your_picture">this is your picture</string>
+    <string name="contents">contents ....................................................</string>
+    <string name="date">2021.12.03</string>
+    <string name="avatar">avatar</string>
+    <string name="commit">Commit</string>
+    <string name="plus">+</string>
+    <string name="cancel">cancel</string>
+    <string name="title">Title</string>
+    <string name="fake">假的设置</string>
+    <string name="fake1">也是假的</string>
+    <string name="fake5">假的</string>
+    <string name="fake3">假的</string>
+    <string name="fake4">假的</string>
+</resources>
