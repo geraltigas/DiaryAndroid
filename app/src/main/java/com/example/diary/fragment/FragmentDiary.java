@@ -85,6 +85,7 @@ public class FragmentDiary extends Fragment {
             editor.commit();
             onResume();
             dialog.dismiss();
+            mAdapter.notifyDataSetChanged();
         });
         cancel.setOnClickListener(v -> dialog.dismiss());
         upload_image.setOnClickListener(v -> {

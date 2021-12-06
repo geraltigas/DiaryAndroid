@@ -1,8 +1,6 @@
 package com.example.diary.entity;
 
 
-import androidx.core.app.NavUtils;
-
 import java.io.Serializable;
 
 import lombok.AllArgsConstructor;

@@ -66,9 +66,11 @@ public class FragmentTreehole extends Fragment {
             editor.commit();
             onResume();
             dialog.dismiss();
+            mAdapter.notifyDataSetChanged();
         });
         cancel.setOnClickListener(v -> dialog.dismiss());
         dialog.show();
+
     }
 
     @Nullable
